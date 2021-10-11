@@ -1,0 +1,85 @@
+
+h1 {
+   display: block;
+   font-weight: bold;
+   color: brown;
+   text-align: center;
+}
+/*container holding the image and the text */
+.container{
+   position: relative;
+   text-align: center;
+   color:black;
+   font-style:oblique;
+
+}
+/*Centered texte */ 
+.centered{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 80px;
+   
+   
+}
+.AllList{ display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.Table2{border-style:ridge;
+   width: 2px;
+   color: rgb(19, 18, 18);
+   font-weight: bold;
+   font-style: oblique;
+
+}
+tbody {
+   /* display:flex;
+  justify-content: space-between; */
+}
+
+table {
+   display: flex;
+   padding:40px 0 40px 0;
+   font-size:30px;
+   font-style: italic;
+   list-style-type:disc;
+   justify-content: space-between;
+  
+
+}
+td{ border: 5px rgb(214, 135, 33) solid;
+
+}
+
+
+
+form {
+   display: block;
+   margin-top: 0em;
+   margin-block-end: 1em;
+   justify-content: left;
+}
+ul {
+   display:flex;
+   list-style-type: disc;
+  font-size: 20px;
+   font-weight:inherit;
+   justify-content: space-between;
+}
+.flter{ filter: blur(6px);}
+
+
+th{ border: 5px rgb(214, 135, 33) solid;
+ 
+     
+}
+
+
+
+
+
+
+
+
