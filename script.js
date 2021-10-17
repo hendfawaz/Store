@@ -1,6 +1,6 @@
 // document.onload = function () {
     
-
+ 
     let Items = document.getElementById("Items");
     
 let ArrAllItems =[
@@ -30,7 +30,7 @@ let ArrAllItems =[
     
     
 ]
-
+localStorage.clear()
 for (let i =0; i < ArrAllItems.length; i++){
   Items.innerHTML+=`<div class="col">
   <img src=`+ArrAllItems[i].imgeSrc+` class="card-img-top" alt="...">
@@ -48,8 +48,9 @@ for (let i =0; i < ArrAllItems.length; i++){
         CartArr.push(ArrAllItems[g]);
         window.localStorage.setItem('CartArr', JSON.stringify(CartArr));
         console.log(CartArr)
+        alert("the total price is "+ArrAllItems[g].price)
     })
-    
+   console.log("yiij") 
 }
 
 // }
